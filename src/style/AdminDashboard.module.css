@@ -1,0 +1,74 @@
+/* adminDashboard.module.css */
+
+.adminContainer {
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 20px;
+    border: 1.5px solid #7fd1d2;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;    
+}
+
+.adminHeading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #18c0d0;
+    margin-bottom: 10px;
+}
+
+.adminSubHeading {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.adminLabel {
+    font-weight: bold;
+    color: black;
+}
+
+.adminInput {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #18c0d0;
+    margin-bottom: 10px;
+}
+
+.adminButton {
+    background-color: #18c0d0;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0% 39%;
+    transition: background-color 0.3s ease;
+}
+
+.adminButton:hover {
+    background-color: #1a8c99;
+}
+
+.adminTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.adminTableHeader {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.adminTableData {
+    border: 1px solid #ddd;
+    padding: 10px;
+}

@@ -1,0 +1,71 @@
+body {
+    font-family: Poppins, Segoe UI, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+.patientHeading{
+    color: #18c0d0;
+    margin: 1rem 0rem;
+}
+
+.Registration-container {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    background-color:white;
+} /* Container styles */
+
+.registration-container {
+    min-width: 450px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    transition: all .1s ease-in-out;
+}
+.registration-container:hover{
+    transform: scale(1.01);
+    box-shadow: 5px 25px 19px rgba(0, 0, 0, 0.2);
+}
+/* Form styles */
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start\;
+    
+}
+
+/* Input styles */
+.registration-input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0.5px solid black;
+
+}
+
+/* Button styles */
+.registration-button {
+    padding: 10px 20px;
+    margin: 0.8rem 0rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #3ccedb;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.registration-button:hover {
+    background-color: #1a8c99;
+}
+
+/* Label styles */
+.registration-label {
+    margin-bottom: 5px;
+
+}

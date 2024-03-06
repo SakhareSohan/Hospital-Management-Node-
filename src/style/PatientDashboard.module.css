@@ -1,0 +1,195 @@
+/* patientDashboard.module.css */
+
+.centerPatientDashboard {
+    /* background-color: #f0f0f0; */
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.containerPatientDashboard {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 90vw;
+    transition: box-shadow 0.3s ease;
+     
+}
+.containerPatientDashboard:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2.patientHeading,
+h3.patientSubheading {
+    color: #18c0d0;
+    margin-bottom: 15px;
+}
+
+/* form.patientForm {
+    margin-bottom: 30px;
+} */
+
+.patientDetails {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+textarea{
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+    width: 30%;
+}
+
+label.patientLabel {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="date"].patientDateInput,
+select.patientSelect,
+button.patientButton {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+select.patientSelect {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2318c0d0' width='24px' height='24px'%3E%3Cpath d='M7 10l5 5 5-5H7z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 24px;
+}
+
+button.patientButton[type="submit"] {
+    background-color: #18c0d0;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.patientButton[type="submit"]:hover {
+    background-color: #1a8c99;
+}
+
+ul.patientList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.patientList li {
+    margin-bottom: 10px;
+}
+
+ul.patientList li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+ul.patientList li a:hover {
+    text-decoration: underline;
+    color: rgb(219, 219, 219);
+    line-height: 2px;
+}
+
+.fileInputContainerPatient {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #18c0d0;
+    color: #ffffff;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.fileInputContainerPatient:hover {
+    background-color: #1a8c99;
+    color: white;
+}
+
+.fileInputContainerPatient input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    color: white;
+}
+
+/* File input style */
+.fileInput {
+    margin-bottom: 15px;
+  display: block;
+  border: 2px dashed #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #666;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+  }
+
+  .fileInput:hover {
+    border-color: #aaa;
+  }
+  
+  /* Patient ID input style */
+.patientInput {
+    margin-bottom: 15px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Doctor ID input style */
+  .doctorInput {
+    margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease;
+  }
+
+  .patientInput:focus,
+.doctorInput:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #999;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: #999;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: #999;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: #999;
+  }

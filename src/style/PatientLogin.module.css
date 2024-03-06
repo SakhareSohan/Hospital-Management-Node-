@@ -1,0 +1,116 @@
+/* adminLogin.module.css */
+
+body {
+    font-family: Poppins, Segoe UI, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.adminLoginCanvas {
+    margin: 0;
+    padding: 0;
+    background: rgba(115, 222, 232, 0.486);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adminLoginMain {
+    background-color: #f8fefe;
+    height: 86vh;
+    width: 91vw;
+    border-radius: 20px;
+    border: 1.5px #7fd1d2 solid;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 285px;
+    background-image: url(../images/Computer-login-bro.png);
+    background-size: 500px 500px;
+    background-repeat: no-repeat;
+    background-position: 84% 50%;
+}
+
+.adminLoginContainer {
+    background-color: white;
+    border-radius: 18px;
+    padding: 16px;
+    padding-top: 29px;
+    transition: all 0.3s ease;
+    height: 345px;
+    width: 328px;
+    display: flex;
+    flex-direction: column;
+    border: 2px #93d8dad7 solid;
+}
+
+.adminLoginContainer:hover {
+    box-shadow: 5px 25px 19px rgba(0, 0, 0, 0.2);
+    transform: scale(1.01);
+}
+
+.adminLoginContainer h2 {
+    text-align: center;
+    color: #18c0d0;
+    transition: all ease-in-out 0.5s;
+    transition-delay: 1s;
+}
+
+.adminLoginContainer:hover h2 {
+    text-align: left;
+    color: #18c0d0;
+    font-size: 1.3rem;
+    margin-top: 30px;
+}
+
+.adminLoginForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    transition: all ease-in-out 0.5s;
+    transition-delay: .5s;
+}
+
+.adminLoginContainer:hover .adminLoginForm {
+    margin-top: 10px;
+}
+
+.adminLoginForm input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #18c0d0;
+    width: 100%;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.adminLoginForm input:focus {
+    border-color: #1a8c99;
+    outline: none;
+}
+
+.adminLoginForm button {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background-color: #18c0d0;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.adminLoginForm button:hover {
+    background-color: #1a8c99;
+}
+
+/* Media queries for responsiveness */
+
+@media screen and (max-width: 850px) {
+    .adminLoginMain {
+        padding-left: 0;
+        justify-content: center;
+        background-position: center;
+    }
+}

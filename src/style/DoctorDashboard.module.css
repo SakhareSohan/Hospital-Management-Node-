@@ -1,0 +1,129 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+} */
+
+/* doctorDashboard.module.css */
+
+.containerDoctorDashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.dashboardSectionDoctor {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+.dashboardSectionDoctor:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.dashboardSectionDoctor h2, .dashboardSectionDoctor h3 {
+    color: #18c0d0;
+    margin-bottom: 15px;
+}
+
+.dashboardSectionDoctor p {
+    margin-bottom: 10px;
+}
+
+.dashboardSectionDoctor hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.searchFormDoctor {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.searchFormDoctor input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    border-right: none;
+    outline: none;
+}
+
+.searchFormDoctor button {
+    padding: 10px 20px;
+    background-color: #18c0d0;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none;
+}
+
+tbody button{
+    padding: 10px;
+    margin: 10px 20px;
+    background-color: #18c0d0;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none; 
+}
+
+tbody button:hover{
+    background-color: #1a8c99;
+}
+
+.searchFormDoctor button:hover {
+    background-color: #1a8c99;
+}
+
+.tableDoctor {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableDoctor th, .tableDoctor td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+.tableDoctor thead:nth-child(4) {
+    margin-left: 20px;
+    text-align: left;
+    background-color: #18c0d0;
+    color: #fff;
+}
+
+tableDoctor tbody tr:hover {
+    background-color: #f0f0f0;
+}
+
+tableDoctor td button {
+    padding: 5px 10px;
+    background-color: #18c0d0;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none;
+}
+
+tableDoctor td button:hover {
+    background-color: #1a8c99;
+}

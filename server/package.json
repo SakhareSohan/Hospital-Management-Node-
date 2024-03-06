@@ -1,0 +1,18 @@
+{
+  "name": "your-node-app",
+  "version": "1.0.0",
+  "description": "Your Node.js application description",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "qrcode": "^1.5.3",
+    "uuid": "^9.0.1",
+    "web3": "^4.5.0"
+  }
+}
